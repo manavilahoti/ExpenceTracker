@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Expense Tracker</title>
+</head>
+<body>
+    <header>
+        <h1 class="title">Expense Tracker</h1>
+    </header>
+    <section>
+        <div class="center">
+            <h2 class="heading">Expenses</h2>
+        </div> 
+                <form>
+                    <div class="flex-field">
+                        <label class="left">Expense Name:</labe>
+                        <input class="align" type="text">
+                    </div>
+                    <div class="flex-field">
+                        <label class="left">Expense Amount:</label>
+                        <input  type="text">
+                    </div>
+                    <div class="flex-field">
+                        <label class="left">Expense Date:</label>
+                        <input class="right" type="date">
+                    </div>
+                    <div class="button">
+                        <button type="add">
+                            Add Expense
+                        </button>
+                        <button type="clear">
+                            Clear Expense
+                        </button>
+                    </div>
+                
+                </form>
+         
+    </section>
+    <section class="content">
+        <table>
+            <thead>
+                <tr>
+                    <th>Expense</th>
+                    <th>Amount</th>
+                    <th>Date</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </section>
+
+</body>
+</html>
